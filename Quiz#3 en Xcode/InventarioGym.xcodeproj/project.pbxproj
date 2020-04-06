@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63588F17243997700065A2C2 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63588F16243997700065A2C2 /* Item.swift */; };
+		63588F1924399A590065A2C2 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63588F1824399A590065A2C2 /* RealmManager.swift */; };
+		63588F1D24399FF90065A2C2 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63588F1B24399FF90065A2C2 /* ItemTableViewCell.swift */; };
+		63588F1E24399FF90065A2C2 /* ItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63588F1C24399FF90065A2C2 /* ItemTableViewCell.xib */; };
+		639CBB09243996790006D02B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639CBB08243996790006D02B /* AppDelegate.swift */; };
+		639CBB0B243996790006D02B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639CBB0A243996790006D02B /* SceneDelegate.swift */; };
+		639CBB0D243996790006D02B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639CBB0C243996790006D02B /* ViewController.swift */; };
+		639CBB10243996790006D02B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639CBB0E243996790006D02B /* Main.storyboard */; };
+		639CBB122439967C0006D02B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 639CBB112439967C0006D02B /* Assets.xcassets */; };
+		639CBB152439967C0006D02B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639CBB132439967C0006D02B /* LaunchScreen.storyboard */; };
+		FE70B3071D54FFE30C450EED /* Pods_InventarioGym.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1294477BEDD76DB8931F48 /* Pods_InventarioGym.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F1294477BEDD76DB8931F48 /* Pods_InventarioGym.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InventarioGym.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		453C2DD32B032F147829DFC0 /* Pods-InventarioGym.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InventarioGym.debug.xcconfig"; path = "Target Support Files/Pods-InventarioGym/Pods-InventarioGym.debug.xcconfig"; sourceTree = "<group>"; };
+		63588F16243997700065A2C2 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		63588F1824399A590065A2C2 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		63588F1B24399FF90065A2C2 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		63588F1C24399FF90065A2C2 /* ItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemTableViewCell.xib; sourceTree = "<group>"; };
+		639CBB05243996790006D02B /* InventarioGym.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InventarioGym.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		639CBB08243996790006D02B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		639CBB0A243996790006D02B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		639CBB0C243996790006D02B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		639CBB0F243996790006D02B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		639CBB112439967C0006D02B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		639CBB142439967C0006D02B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		639CBB162439967C0006D02B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8CCB6CF47E0BC4DC066DE27 /* Pods-InventarioGym.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InventarioGym.release.xcconfig"; path = "Target Support Files/Pods-InventarioGym/Pods-InventarioGym.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		639CBB02243996790006D02B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE70B3071D54FFE30C450EED /* Pods_InventarioGym.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63588F1A24399FD50065A2C2 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				63588F1B24399FF90065A2C2 /* ItemTableViewCell.swift */,
+				63588F1C24399FF90065A2C2 /* ItemTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		639CBAFC243996790006D02B = {
+			isa = PBXGroup;
+			children = (
+				639CBB07243996790006D02B /* InventarioGym */,
+				639CBB06243996790006D02B /* Products */,
+				F24A99A95F6A117573F7FE0E /* Pods */,
+				83ED3EB887B626A6EA4C9945 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		639CBB06243996790006D02B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				639CBB05243996790006D02B /* InventarioGym.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		639CBB07243996790006D02B /* InventarioGym */ = {
+			isa = PBXGroup;
+			children = (
+				63588F1A24399FD50065A2C2 /* Cell */,
+				639CBB08243996790006D02B /* AppDelegate.swift */,
+				639CBB0A243996790006D02B /* SceneDelegate.swift */,
+				639CBB0C243996790006D02B /* ViewController.swift */,
+				639CBB0E243996790006D02B /* Main.storyboard */,
+				639CBB112439967C0006D02B /* Assets.xcassets */,
+				639CBB132439967C0006D02B /* LaunchScreen.storyboard */,
+				639CBB162439967C0006D02B /* Info.plist */,
+				63588F16243997700065A2C2 /* Item.swift */,
+				63588F1824399A590065A2C2 /* RealmManager.swift */,
+			);
+			path = InventarioGym;
+			sourceTree = "<group>";
+		};
+		83ED3EB887B626A6EA4C9945 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F1294477BEDD76DB8931F48 /* Pods_InventarioGym.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F24A99A95F6A117573F7FE0E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				453C2DD32B032F147829DFC0 /* Pods-InventarioGym.debug.xcconfig */,
+				D8CCB6CF47E0BC4DC066DE27 /* Pods-InventarioGym.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		639CBB04243996790006D02B /* InventarioGym */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 639CBB192439967C0006D02B /* Build configuration list for PBXNativeTarget "InventarioGym" */;
+			buildPhases = (
+				96D8028B0F2A6088FADC0381 /* [CP] Check Pods Manifest.lock */,
+				639CBB01243996790006D02B /* Sources */,
+				639CBB02243996790006D02B /* Frameworks */,
+				639CBB03243996790006D02B /* Resources */,
+				28F698ADADE25011D6891BCD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InventarioGym;
+			productName = InventarioGym;
+			productReference = 639CBB05243996790006D02B /* InventarioGym.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		639CBAFD243996790006D02B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = user169046;
+				TargetAttributes = {
+					639CBB04243996790006D02B = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = 639CBB00243996790006D02B /* Build configuration list for PBXProject "InventarioGym" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 639CBAFC243996790006D02B;
+			productRefGroup = 639CBB06243996790006D02B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				639CBB04243996790006D02B /* InventarioGym */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		639CBB03243996790006D02B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63588F1E24399FF90065A2C2 /* ItemTableViewCell.xib in Resources */,
+				639CBB152439967C0006D02B /* LaunchScreen.storyboard in Resources */,
+				639CBB122439967C0006D02B /* Assets.xcassets in Resources */,
+				639CBB10243996790006D02B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28F698ADADE25011D6891BCD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InventarioGym/Pods-InventarioGym-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InventarioGym/Pods-InventarioGym-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InventarioGym/Pods-InventarioGym-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96D8028B0F2A6088FADC0381 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InventarioGym-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		639CBB01243996790006D02B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63588F17243997700065A2C2 /* Item.swift in Sources */,
+				639CBB0D243996790006D02B /* ViewController.swift in Sources */,
+				63588F1924399A590065A2C2 /* RealmManager.swift in Sources */,
+				639CBB09243996790006D02B /* AppDelegate.swift in Sources */,
+				63588F1D24399FF90065A2C2 /* ItemTableViewCell.swift in Sources */,
+				639CBB0B243996790006D02B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		639CBB0E243996790006D02B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				639CBB0F243996790006D02B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		639CBB132439967C0006D02B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				639CBB142439967C0006D02B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		639CBB172439967C0006D02B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		639CBB182439967C0006D02B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		639CBB1A2439967C0006D02B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 453C2DD32B032F147829DFC0 /* Pods-InventarioGym.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InventarioGym/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alberto.InventarioGym;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		639CBB1B2439967C0006D02B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8CCB6CF47E0BC4DC066DE27 /* Pods-InventarioGym.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = InventarioGym/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = alberto.InventarioGym;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		639CBB00243996790006D02B /* Build configuration list for PBXProject "InventarioGym" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639CBB172439967C0006D02B /* Debug */,
+				639CBB182439967C0006D02B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		639CBB192439967C0006D02B /* Build configuration list for PBXNativeTarget "InventarioGym" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				639CBB1A2439967C0006D02B /* Debug */,
+				639CBB1B2439967C0006D02B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 639CBAFD243996790006D02B /* Project object */;
+}
