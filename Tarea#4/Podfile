@@ -1,10 +1,10 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-target 'Tarea#3' do
+target 'Tarea#4' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-  'RealmSwift'
-  # Pods for Tarea#3
+  pod 'RealmSwift'
+  # Pods for Tarea#4
 
 end
