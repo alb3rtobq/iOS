@@ -32,7 +32,7 @@ class AnimalListViewController: UIViewController {
         navigationItem.backBarButtonItem?.tintColor = UIColor(red: 1, green: 0.5843, blue: 0, alpha: 1.0)   
         
         animalListTableView.tableFooterView = UIView(frame: .zero)
-        self.animalListTableView.backgroundColor = UIColor(red: 1, green: 0.9882, blue: 0.949, alpha: 1.0)
+        self.animalListTableView.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1.0)
         registerCustomCell()
         
         addAnimalNavigationButton()
